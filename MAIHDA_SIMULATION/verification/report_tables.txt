@@ -1,0 +1,28 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+   cell  component simple_pass additive_pass simple_median additive_median
+1     1    poisson         500           500  6.369648e-01    8.440640e-02
+2     1         nb         500           500  3.518740e-01    8.005493e-09
+3     1 occurrence         500           500  3.393244e-01    7.606473e-09
+4     1   positive         324           283  1.821517e-05    5.367084e-09
+89   23    poisson         500           500  2.680450e-01    1.868638e-01
+90   23         nb         500           500  5.056604e-08    1.269453e-08
+91   23 occurrence         500           500  4.108341e-01    8.240546e-02
+92   23   positive         500           500  4.041153e-01    8.041921e-02
+   pcv_n pcv_median
+1    500   87.53778
+2    499  100.00000
+3    496  100.00000
+4    136   99.99999
+89   500   28.59523
+90   453   72.12916
+91   500   79.96018
+92   500   79.94082

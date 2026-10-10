@@ -1,0 +1,1 @@
+Recomputed all 72 model-setting means and Monte Carlo standard errors from original per-dataset metrics, restricted to the intersection of acceptable finite fits for all three models. All means agree with Table 3 to absolute tolerance 1e-10. Common subset counts agree in all 24 settings. Availability retains original model-specific counts out of all 500 attempts. No refitting.

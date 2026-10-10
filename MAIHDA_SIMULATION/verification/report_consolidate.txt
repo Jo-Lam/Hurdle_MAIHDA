@@ -1,0 +1,54 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Integrity passed. Precision: 249 / 288 
+     role   target attempted available proportion     lower     upper
+1 control expected      4000      1685    0.42125 0.4060309 0.4366202
+2    core expected     12000     10569    0.88075 0.8748292 0.8864271
+3  stress expected      2000       916    0.45800 0.4362653 0.4798957
+4 control   m_plus      4000      1685    0.42125 0.4060309 0.4366202
+5    core   m_plus     12000     10569    0.88075 0.8748292 0.8864271
+6  stress   m_plus      2000       916    0.45800 0.4362653 0.4798957
+7 control        p      4000      4000    1.00000 0.9990405 1.0000000
+8    core        p     12000     12000    1.00000 0.9996800 1.0000000
+9  stress        p      2000      2000    1.00000 0.9980829 1.0000000
+  affected positive_mean attempted available
+1      100           1.2      3000      1875
+2      500           1.2      3000      2698
+3      100           3.0      3000      2996
+4      500           3.0      3000      3000
+Penalty .5 core directions
+    role   target     weighting         method_a       reference_b
+74  core expected equal_stratum MAP_sd0.5:hurdle      MAP_sd0.5:nb
+77  core   m_plus equal_stratum MAP_sd0.5:hurdle      MAP_sd0.5:nb
+80  core        p equal_stratum MAP_sd0.5:hurdle      MAP_sd0.5:nb
+83  core expected    population MAP_sd0.5:hurdle      MAP_sd0.5:nb
+86  core   m_plus    population MAP_sd0.5:hurdle      MAP_sd0.5:nb
+89  core        p    population MAP_sd0.5:hurdle      MAP_sd0.5:nb
+92  core expected equal_stratum MAP_sd0.5:hurdle MAP_sd0.5:poisson
+95  core   m_plus equal_stratum MAP_sd0.5:hurdle MAP_sd0.5:poisson
+98  core        p equal_stratum MAP_sd0.5:hurdle MAP_sd0.5:poisson
+101 core expected    population MAP_sd0.5:hurdle MAP_sd0.5:poisson
+104 core   m_plus    population MAP_sd0.5:hurdle MAP_sd0.5:poisson
+107 core        p    population MAP_sd0.5:hurdle MAP_sd0.5:poisson
+    diagnostic_restricted lower clear_lower clear_higher
+74                   TRUE    15          12            9
+77                   TRUE    12          12            8
+80                   TRUE    20          19            4
+83                   TRUE    15          10            9
+86                   TRUE    12          12           12
+89                   TRUE    18          17            6
+92                   TRUE    22          22            2
+95                   TRUE    24          24            0
+98                   TRUE    24          24            0
+101                  TRUE    22          22            2
+104                  TRUE    24          24            0
+107                  TRUE    24          24            0
+[1] TRUE

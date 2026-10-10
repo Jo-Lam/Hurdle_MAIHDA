@@ -1,0 +1,1 @@
+PASS: 3888 whole-stratum summary rows match original means, medians, bias and eligibility. Four settings audited for complete branch records; additive projected truth is zero; explicit pairwise contrast identity checked.

@@ -1,0 +1,20 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+poisson penalty NA prediction difference 6.952133e-10 objective difference 2.619345e-10 
+poisson penalty 0.5 prediction difference 1.212063e-09 objective difference 3.45608e-10 
+nb penalty NA prediction difference 2.695388e-09 objective difference 1.482476e-10 
+nb penalty 0.5 prediction difference 8.273086e-09 objective difference 1.63709e-11 
+occurrence penalty NA prediction difference 3.044524e-10 objective difference 1.482476e-10 
+occurrence penalty 0.5 prediction difference 1.443515e-09 objective difference 1.073204e-10 
+positive penalty NA prediction difference 4.080652e-10 objective difference 1.818989e-12 
+positive penalty 0.5 prediction difference 8.901722e-11 objective difference 7.958079e-13 
+V3 tests passed: 36-cell calibration, identities, compression, penalty symmetry and evaluation.
+Disjoint pilot/production seed ranges and expansion stability passed.

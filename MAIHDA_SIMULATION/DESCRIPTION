@@ -1,0 +1,7 @@
+Type: Project
+Title: Occurrence and Recurrence in Sparse Count MAIHDA
+Version: 1.0.0
+Description: Simulation and reporting scripts for Poisson, NB2 and hurdle NB2 MAIHDA. An analysis project, not an installable R package.
+Depends: R (>= 4.6.0)
+Imports: glmmTMB (>= 1.1.14), data.table (>= 1.18.4)
+Encoding: UTF-8
